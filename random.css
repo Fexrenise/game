@@ -1,0 +1,37 @@
+:root {
+    --fg-color: darkred;
+    --bg-color: cornsilk;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--fg-color);
+  }
+.btn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+}
+button {
+    width: 300px;
+    padding: 1rem 2rem;
+    border: 0.2rem solid var(--fg-color);
+    border-radius: 0.5rem;
+    font-size: inherit;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+  button:hover {
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    opacity: 0.7;
+  }
+
